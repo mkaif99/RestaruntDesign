@@ -1,0 +1,313 @@
+html
+{
+	scroll-behavior: smooth;
+	
+}
+.b1
+{
+	height: 4000px;
+	width: 100%;
+	border: 2px solid white;
+}
+.b2
+{
+	background-image: url('D:/Restaurant design/images/dish.jpg');
+	/*border: 2px solid grey;*/
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	filter:saturate(70%);
+}
+.lu0
+{
+	border-bottom: 2px ridge white;
+}
+.li0
+{
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 80%;
+	margin: 4px;
+	padding: 5px;
+}
+.lu0 :hover
+{
+	color: white;
+	background-color: black;
+}
+a
+{
+	color: black;
+}
+.li1
+{
+	float: right;
+	border-left: 2px inset black;
+	margin-right: 75px;
+	font-size: 20px;
+	padding: 5px;
+}
+.lu1 li
+{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right:150px ;
+	font-size: 22px;
+}
+.lu1 a
+{
+	color: aliceblue !important;
+}
+.lu1 a:hover
+{
+	color: black;
+	border: 2px outset white;
+}
+.he1
+{
+	margin-left: 300px;
+	margin-top: 150px;
+	color: white;
+	font-size: 40px;
+}
+.b3
+{
+	margin-left: 350px;
+	margin-top: 100px;
+	color: white;
+	border: 2px outset black;
+	width: 700px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.b3 th
+{
+	color: white;
+}
+h2
+{
+	margin-left: 250px;
+}
+th
+{
+	font-size: 20px;
+}
+button
+{
+	color: white;
+	background-color:darkred ;
+	margin-left: 300px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.b4
+{
+	width: 100%;
+	height: 1050px;
+	border: 2px 0px 2px 2px;
+	/*border-right: 0px;*/
+	background: linear-gradient(black,darkgrey,dimgrey);
+}
+.he2
+{
+	margin-left: 500px;
+	margin-top: -0px;
+	color: white;
+	font-size: 40px;
+	padding-top: 35px;
+}
+.dish
+{
+	border: 0px solid black;
+	width: 78%;
+	height:360px;
+	background-image: url('D:/Restaurant design/images/food6.jpg'),
+	url('D:/Restaurant design/images/food2.jpg'),
+	url('D:/Restaurant design/images/dish2.jpg');
+	background-position: 0px 0px,400px 0px,800px 0px;
+	background-size: 350px 350px,350px 350px,350px 350px;
+	background-repeat: no-repeat;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+.dish1
+{
+	border: 0px solid black;
+	width: 78%;
+	height:360px;
+	background-image: url('D:/Restaurant design/images/food1.jpg'),
+	url('D:/Restaurant design/images/food7.jpg'),
+	url('D:/Restaurant design/images/dish.jpg');
+	background-position: 0px 0px,400px 0px,800px 0px;
+	background-size: 350px 350px,350px 350px,350px 350px;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+.b5
+{
+	width: 100%;
+	height: 540;
+	border-top: 2px solid black;
+	background: linear-gradient(black,whitesmoke,black);
+	/*background-color: black;*/
+}
+.b6
+{
+	width: 70%;
+	height: 350px;
+	/*border: 2px solid darkred*/;
+	margin-left: 220px;
+	margin-top: 100px;
+	background-image: url('D:/Restaurant design/images/ba.jpg'),
+	url('D:/Restaurant design/images/bc.jpg');
+	background-size: 470px 400px,500px 400px;
+	background-position: 0px 0px,600px 0px;
+	background-repeat: no-repeat;
+	filter: saturate(70%);
+}
+.b7 h1,p
+{
+	color: black;
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 40%;
+	/*font-size: 30px;*/
+}
+.b8 
+{
+	font-size: 18px;
+	float: right;
+	color:white;
+	width: 30%;
+	margin-right: -90px;
+	margin-top: -230px;
+}
+.p1
+{
+	color: whitesmoke;
+	font-size: 20px;
+}
+.b9
+{
+	width: 100%;
+	height: 500px;
+	border-top-color: 1px solid skyblue;
+	margin-left: 0px;
+	margin-top: 92px;
+	background:linear-gradient(black,whitesmoke,black);
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter:saturate(80%);
+	background-position:0px;
+	color: darkred;
+}
+.b9 li
+{
+	display:inline-block;
+	margin-left: 125px;
+	margin-top: 130px;
+	font-size: 33px;
+   background: rgba(0, 0, 0,0.2);
+}
+.b9 h1
+{
+	margin-left: 530px;
+	margin-top: 10px;
+	color: whitesmoke;
+	font-size: 50px;
+	padding-top: 10px;	
+}
+.b9 li:hover
+{
+	color: blanchedalmond; 
+}
+.b9 i
+{
+	color: maroon;
+}
+.b9 i:hover
+{
+	background-color: floralwhite;
+}
+.b10
+{
+	margin-top: -30px;
+	width: 100%;
+	height:600px;
+	/*border: 2px solid whitesmoke;*/
+	background-image:linear-gradient(black,whitesmoke,dimgrey);
+}
+.b10 img
+{
+	height: 300px;
+	width: 400px;
+	margin:44px;
+	border: 4px ridge whitesmoke;
+}
+.b10 h1
+{
+	margin-left: 500px;
+	margin-top: 30px;
+	color: whitesmoke;
+	font-size: 40px;
+	padding-top: 10px;
+}
+.b10 img:hover 
+{
+	filter: saturate(50%);
+}
+.b11
+{
+	margin-top: -30px;
+	width: 100%;
+	height:520px;
+	display: inline-flex;
+	width: 100%;
+}
+.di1
+{
+	/*border: 1px solid white;*/
+	width: 54%;
+	height:480px;
+}
+.di2
+{
+	/*border: 2px solid blue;*/
+	width: 46%;
+	height:450px;
+}
+.di2 table
+{
+	background-image: url('D:/Restaurant design/images/back5.jpg');
+	background-size: cover;
+	background-position: 0px 500px;
+	filter: saturate(70%);
+	height:430px;
+	width: 100%;
+}
+.di2 tr
+{
+	opacity:0.9;
+}
+.di2 th 
+{
+	color: white;
+	font-size: 30px;
+}
+.di2 input
+{
+	width: 200px;
+}
+.he4
+{
+	width: 1050px;
+	height: 100px;
+	color:whitesmoke;
+	font-size: 30px;
+	margin: 0px;
+	border: 2px solid lightgray;
+	background:linear-gradient(dimgrey,black); 
+	padding-left: 450px;
+	padding-top: 80px;
+}
